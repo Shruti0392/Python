@@ -1,0 +1,18 @@
+s="Python programming"
+
+print(len(s))
+print(s.capitalize())
+print(s.casefold())
+print(s.lower())
+print(s.upper())
+print(s.swapcase())
+print(s.center(40,"#"))
+print(s.count("o"))
+print(s.endswith("ing"))
+print(s.startswith("pyt"))
+print(s.find("rog"))
+print("pyt".isalnum())
+print("123".isalnum())
+print("123".isnumeric())
+print(" ".isspace())
+print("Python programming".istitle())
